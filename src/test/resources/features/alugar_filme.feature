@@ -1,10 +1,10 @@
 # language: pt
+@unitarios
 Funcionalidade: Alugar Filme
 	Como um usuário
 	Eu quero cadastrar aluguéis de filmes
 	Para controlar preços e datas de entrega
 
-@cenario1
 Cenário: Deve alugar um filme com sucesso
 	Dado um filme 
 		| estoque |2      | 

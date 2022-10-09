@@ -1,5 +1,5 @@
 # language:pt
-@esse
+@unitarios
 Funcionalidade: Aprender Cucumber
 	Como um aluno
 	Eu quero aprender a utilizar cucumber
@@ -46,7 +46,6 @@ Cenário: Deve reaproveitar os steps "Dado" do cenário anterior
   Dado que o nome do passageiro é "Cicrano de Oliveira"
   Dado que o telefone do passageiro é "9888-8888"
 
-@ignore
 Cenário: Deve negar todos os steps "Dado" dos cenários anteriores
   Dado que o ticket é {CD123}
   Dado que o ticket é {AG1234}
