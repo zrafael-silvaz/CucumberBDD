@@ -36,7 +36,7 @@ public class InserirContasSteps {
 	    WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();		
 		driver.get("https://seubarriga.wcaquino.me/");	
-		driver.findElement(By.id("email")).sendKeys("rafaelferreira@solucaosistemas.net");
+		driver.findElement(By.id("email")).sendKeys("rafaelferreira@teste.net");
 		driver.findElement(By.id("senha")).sendKeys("123456");
 		driver.findElement(By.cssSelector("button[type='submit']")).click();
 		driver.findElement(By.linkText("Contas")).click();
